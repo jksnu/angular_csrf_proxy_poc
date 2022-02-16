@@ -1,0 +1,50 @@
+{
+  "/api": {
+    "target": "http://localhost:8000/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  },
+  "/registerUser": {
+    "target": "http://localhost:8000/registerUser",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/registerUser": ""
+    }
+  },
+  "/users": {
+    "target": "http://localhost:8000/users",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/users": ""
+    }
+  },
+  "/delete": {
+    "target": "http://localhost:8000/delete/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/delete": ""
+    }
+  },
+  "/login": {
+    "target": "http://localhost:8000/login/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/login": ""
+    }
+  },
+  "/logout": {
+    "target": "http://localhost:8000/logout/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/logout": ""
+    }
+  }
+}
